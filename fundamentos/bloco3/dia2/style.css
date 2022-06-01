@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+hr {
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 0.1px;
+    width: 300px;
+    margin: auto;
+}
+
+html {
+    color: white;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/vecteezy_background-gold_ts1220.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: rgb(111, 209, 13);
+}
+
+p {
+    padding: 20px; 
+    font-size: 15px;
+}
+
+#nome {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#container {
+    border-radius: 6px;
+    margin: auto;
+    width: 600px;
+    background-color: rgb(62, 65, 65);
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+li {
+    margin-left: 20px;
+}

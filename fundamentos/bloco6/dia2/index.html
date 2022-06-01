@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <main class="container">
+    <header>
+      <h1 class="display-2 mb-5 mt-5">Exercício do dia 1</h1>
+    </header>
+    <form action="">
+      <div class="form-group">
+        <label for="name" class="col-sm-2 col-form-label">Nome Completo: </label><input type="text" class="form-control"
+          name="name" id="name" minlength="10" maxlength="40" placeholder="Digite seu nome aqui" required>
+      </div>
+      <div class="form-group">
+        <label for="email" class="col-sm-2 col-form-label">Email: </label><input type="email" class="form-control"
+          name="email" id="email" minlength="10" maxlength="50" placeholder="Digite seu Email aqui" required>
+      </div>
+      <fieldset class="form-group">
+        <h2 class="display-5 mb-5 mt-5">Destino favorito</h2>
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="places" id="cidade" value="option1" checked>
+              <label class="form-check-label" for="cidade">
+                Cidade
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="places" id="campo" value="option2">
+              <label class="form-check-label" for="campo">
+                Campo
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="places" id="praias" value="option3">
+              <label class="form-check-label" for="praias">
+                Praia
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="places" id="montanhas" value="option4">
+              <label class="form-check-label" for="montanhas">
+                Montanhas
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <h2 class="display-5 mb-5 mt-5">Por que você deveria ser a pessoa desenvolvedora a ganhar o sorteio TrybeTrip?</h2>
+      <textarea name="why" class="form-control" id="why" cols="50" rows="10" maxlength="500"></textarea>
+      <h2 class="display-5 mb-5 mt-5">Melhor data para viajar?</h2>
+      <input type="date" class="form-check" name="date" id="date">
+      <br>
+      <br>
+      <div class="form-check">
+        <label for="news">
+          <input type="checkbox" name="news" id="news">Gostaria de receber outras incríveis oportunidades oferecidas pela
+          Trybe?
+        </label>
+      </div>
+      <br>
+      <div class="form-check">
+        <label for="images">
+          <input type="checkbox" name="images" id="images">Concordo que imagens das minhas férias poderão ser usadas na
+          divulgação de concursos futuros.
+        </label>
+      </div>
+      <input type="reset" class="btn btn-secondary mt-5 mb-5" id="reset">
+      <input type="button" class="btn btn-primary mt-5 mb-5" id="submit" value="Enviar">
+    </form>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
